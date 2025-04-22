@@ -27,18 +27,18 @@ Track your daily habits with JWT-secured RESTful APIs, complete with interactive
 
 ## 🧑‍💻 Local Setup
 
-1. **Clone the repo**
+1. **Clone the repo** : 
    git clone https://github.com/YOUR_USERNAME/habit_tracker.git
    cd habit_tracker
 
-2. **Create & activate a virtual environment**
+2. **Create & activate a virtual environment** : 
    python -m venv venv
    source venv/bin/activate  # or venv\Scripts\activate on Windows
 
-4. **Install dependencies**
+4. **Install dependencies**: 
    pip install -r requirements.txt
 
-5. **create .env file**
+5. **create .env file** : 
    SECRET_KEY=your_django_secret
    DEBUG=True
    DB_NAME=your_db_name
@@ -47,9 +47,9 @@ Track your daily habits with JWT-secured RESTful APIs, complete with interactive
    DB_HOST=localhost
    DB_PORT=3306
 
-6. **Apply migrations**
+6. **Apply migrations** : 
    python manage.py migrate
 
-7. **Run the server**
+7. **Run the server** : 
      python manage.py runserver
 
