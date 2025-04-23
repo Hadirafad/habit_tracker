@@ -7,7 +7,7 @@ __pycache__/
 db.sqlite3
 /media
 /staticfiles
-.env
+habitracker/.env
 
 # VSCode or PyCharm
 .vscode/
